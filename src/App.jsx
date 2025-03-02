@@ -1,7 +1,8 @@
 import Header from "./components/Header"
 import About from "./components/About" 
 import Customer from "./components/Customer" 
-import Blog from "./components/Blog"
+import Blog from "./components/Blog" 
+import Footer from "./components/Footer"
 function App() {
   
 
@@ -18,7 +19,8 @@ function App() {
     </section> 
     <section id="blog">
     <Blog/> 
-    </section>
+    </section> 
+    <Footer/>
     </>
   )
 }
